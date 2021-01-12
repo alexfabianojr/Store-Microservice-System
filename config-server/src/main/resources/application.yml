@@ -7,5 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/alexfabianojr/Store-Microservice-System
+          uri: https://github.com/alexfabianojr/Store-Microservice-System.git
           search-paths: microservice-repo
+          default-label: main
