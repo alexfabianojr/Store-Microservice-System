@@ -3,10 +3,9 @@ server:
   port: 8888
 
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: C:\CODE\msAlura\microservice-repo
+        git:
+          uri: https://github.com/alexfabianojr/Store-Microservice-System
+          search-paths: microservice-repo
