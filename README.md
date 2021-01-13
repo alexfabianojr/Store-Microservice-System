@@ -1,10 +1,10 @@
 # Store-Microservice-System
 
-# Microservices com Spring Cloud: Registry, Config Server e Distributed Tracing
+Microservices com Spring Cloud: Registry, Config Server e Distributed Tracing
 
-# Anotações de aula
+Anotações de aula
 
-# MÓDULO 1
+MÓDULO 1
     1. Qual a solução a ser implementada no curso
         - Teremos três microsserviços: Fornecedor, Loja e Transportador
     2. Uma apresentação da modelagem focado em DDD (Domain Driven Design)
@@ -13,7 +13,7 @@
     4. O uso do Postman como cliente HTTP
     5. A criação do microsserviço Loja usando Spring Boot
 
-# MÓDULO 2
+MÓDULO 2
     1. A integração entre microsserviços com RestTemplate
         - O RestTemplate do Spring permite chamadas HTTP de alto nível
     2. Um introdução ao Service discovery e Service registry
@@ -24,7 +24,7 @@
     4. Como registrar da Loja e do Fornecedor no Eureka Server
     5. A resolução do IP/porta através do nome do microsserviço nas requisições
 
-# MÓDULO 3
+MÓDULO 3
     1. Que um servidor de configuração é o lugar central para definir as configurações dos serviços
     2. Que todas as configurações dos microsserviços devem ficar externalizadas e centralizadas
     3. Que o Spring Config Server é uma implementação do servidor do projeto Spring Cloud
@@ -32,7 +32,7 @@
         - Para tal, devemos configurar o nome do microsserviço, profile e URL do Config Server
     5. Que existem várias formas de definir um repositório de configurações, entre elas o GitHub e o local
 
-# MÓDULO 4
+MÓDULO 4
     1. Que o Client Side Load Balancing (CSLB) é o cliente HTTP que decide qual microsserviço recebe a requisição
         - Isto é importante, pois pode ter várias instâncias do mesmo serviço no ar
         - A configuração do CSLB é feita a partir da anotação @LoadBalanced, na criação do RestTemplate
@@ -42,7 +42,7 @@
     4. O Spring Feign exige apenas uma interface, com a definição e mapeamento dos métodos que executarão a requisição
         - Toda a implementação da interface é gerada pelo Spring Feign
 
-# MÓDULO 5
+MÓDULO 5
     1. Como se trata de uma arquitetura distribuída, temos logs distribuídos
         - Ou seja, cada microsserviço (e instância dele) possui o seu log
         - Isso dificulta o acompanhamento e rastreabilidade das requisições
