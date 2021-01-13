@@ -1,10 +1,12 @@
 package com.example.fornecedor.repository;
 
-import com.example.fornecedor.entity.InfoFornecedor;
+import com.example.fornecedor.model.InfoFornecedor;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
 
-public interface InfoRepository extends CrudRepository<InfoFornecedor, Long> {
-    Optional<InfoFornecedor> findByEstado(String estado);
+@Repository
+public interface InfoRepository extends CrudRepository<InfoFornecedor, Long>{
+
+	InfoFornecedor findByEstado(String estado);
 }
